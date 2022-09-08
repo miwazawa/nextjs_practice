@@ -10,7 +10,7 @@ import utilStyles from '../styles/utils.module.css'
 // SSGの場合
 export async function getStaticProps() {
   const allPostsData = getPostsData(); // id, title, date, thumbnail
-  console.log(allPostsData);
+  //console.log(allPostsData);
 
   return {
     props: {
